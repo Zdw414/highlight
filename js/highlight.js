@@ -1,5 +1,6 @@
 var languages = {
   javascript: /\b(function|return|var)\b/g /* ... etc */
+  C: /\b(struct|char|extrn|type)\b/g 
 };
 
 function highlightAllCode() {
